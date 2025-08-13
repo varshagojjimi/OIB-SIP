@@ -1,0 +1,164 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+header .logo {
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 20px;
+}
+nav {
+  float: right;
+  margin-right: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #ff6600;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://source.unsplash.com/1600x800/?coding") no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 3rem;
+  animation: fadeIn 2s ease-in-out;
+}
+.hero p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+.btn {
+  background: #ff6600;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #e65c00;
+}
+
+/* Features Section */
+.features {
+  background: white;
+  padding: 80px 0;
+  text-align: center;
+}
+.feature-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.feature-box {
+  background: #f9f9f9;
+  padding: 25px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+.feature-box span {
+  font-size: 40px;
+}
+
+/* About Section */
+.about {
+  background: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* Contact Section */
+.contact {
+  background: white;
+  padding: 60px 0;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+}
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #ff6600;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #e65c00;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
