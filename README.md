@@ -2,6 +2,7 @@
 A modern, responsive, and user-friendly web application built using the latest web technologies. This project showcases practical implementation of HTML, CSS, JavaScript
 
 🌐 Interactive Landing Page
+
 A fully responsive, beginner-friendly landing page built with HTML and CSS. It features a modern design, smooth animations, and a clean layout perfect for showcasing products, services, or personal portfolios.
 
 ✨ Features
@@ -21,6 +22,7 @@ HTML5
 CSS3 (Flexbox, animations, gradients)
 
 💼 Pooja | Personal Portfolio Website
+
 A sleek, fully responsive personal portfolio built with HTML and CSS to showcase skills, projects, and experience. Designed with a modern UI, smooth transitions, and a mobile-friendly layout to create a strong professional online presence.
 
 ✨ Features
@@ -45,6 +47,7 @@ CSS3 (Flexbox, gradients, animations)
 
 
 🌡️ Temperature Converter
+
 A simple and interactive Temperature Converter built using HTML, CSS, and JavaScript. It allows users to easily convert between Celsius (°C), Fahrenheit (°F), and Kelvin (K) with instant results.
 
 ✨ Features
